@@ -16,6 +16,15 @@
   margin-left: 20px;
 }
 
+.screen-header__icons span:last-child {
+  position: relative;
+}
+.screen-header__icons span:last-child .badge--dot {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
 @keyframes rotateCog {
   from {
     transform: none;

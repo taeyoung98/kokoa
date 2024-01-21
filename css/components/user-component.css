@@ -26,6 +26,7 @@
   height: 70px;
   border-radius: 40%;
   margin-right: 20px;
+  object-fit: cover;
 }
 .user-component__avatar--sm {
   width: 60px;
@@ -49,6 +50,11 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+
+  i {
+    color: #f06452;
+    margin-left: 3px;
+  }
 }
 
 .user-component__time {
